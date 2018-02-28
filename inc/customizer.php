@@ -665,7 +665,7 @@ function septheuredix_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'branding_bg',
 		array(
-			'default'           => '#fff',
+			'default'           => '#333',
 			'sanitize_callback' => 'sanitize_hex_color',
 			'transport'         => 'postMessage',
 		)
