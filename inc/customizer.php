@@ -1126,12 +1126,12 @@ function septheuredix_customize_register( $wp_customize ) {
 	// Upsells
 	require_once( trailingslashit( get_template_directory() ) . 'inc/class/class-customizer-theme-info-control/class-customizer-theme-info-control.php' );
 
-	// $wp_customize->add_section(
-	// 	'septheuredix_theme_info_main_section', array(
-	// 		'title'    => __( 'View PRO version', 'septheuredix' ),
-	// 		'priority' => 0,
-	// 	)
-	// );
+	$wp_customize->add_section(
+		'septheuredix_theme_info_main_section', array(
+			'title'    => __( 'View PRO version', 'septheuredix' ),
+			'priority' => 0,
+		)
+	);
 
 	$wp_customize->add_setting(
 		'septheuredix_theme_info_main_control', array(
