@@ -22,6 +22,8 @@
 		value.bind( function( newval ) {
 			$('.site-logo').css('max-width', newval + 'px' );
 			$('.custom-logo').css('max-width', newval + 'px' );
+			$('.custom-logo').css('float', 'left' );
+			$('.custom-logo').css('margin-top', '-35px' );
 		} );
 	});
 
