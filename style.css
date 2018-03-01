@@ -1222,10 +1222,17 @@ img {
 .site-branding {
 	padding: 60px 0;
 }
-.site-branding .custom-logo{
-	float: left;
+
+.site-branding .custom-logo {
 	margin-top: -35px;
 }
+
+@media only screen and (min-width: 768px) {
+	.site-branding .custom-logo {
+		float: left;
+	}
+}
+
 .site-logo {
 	width: 100%;
 	max-width: 200px;
@@ -1236,7 +1243,7 @@ img {
 }
 .site-title {
 	margin: 0;
-	font-size: 62px;
+	font-size: 86px;
 }
 .site-title a {
 	color: #1c1c1c;
@@ -1246,7 +1253,7 @@ img {
 	margin: 30px 0 0;
 	color: #767676;
 	font-family: "GeosansLight", serif;
-	font-size: 18px;
+	font-size: 16.8px;
 	font-weight: 400;
 }
 .header-image {
@@ -1716,7 +1723,7 @@ img {
 		margin-bottom: 15px;
 	}
 	.site-title {
-		font-size: 86px !important;
+		font-size: 36px !important;
 	}
 	.site-description {
 		font-size: 16px !important;
