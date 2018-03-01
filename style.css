@@ -232,6 +232,10 @@ textarea {
 	border-right: 0;
 }
 
+.main-navigation .container.submenu {
+	width: 100%;
+}
+
 .main-navigation .container.submenu li {
 	border-right: 0;
 	width: 20%;
