@@ -541,7 +541,6 @@ textarea {
 .widget-area .widget {
 	margin: 0 0 45px;
 	padding: 30px;
-	border: 1px solid #e0e0e0;
 	background-color: #fff;
 }
 .widget a {
@@ -714,7 +713,6 @@ textarea {
 
 .hentry {
 	margin: 0 0 45px;
-	border: 1px solid #e0e0e0;
 	background-color: #fff;
 }
 .post-inner {
