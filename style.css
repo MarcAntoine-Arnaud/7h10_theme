@@ -1218,9 +1218,14 @@ img {
 .site-branding {
 	padding: 60px 0;
 }
+.site-branding .custom-logo{
+	float: left;
+	margin-top: -35px;
+}
 .site-logo {
 	width: 100%;
 	max-width: 200px;
+
 }
 .show-title {
 	margin-bottom: 15px;
