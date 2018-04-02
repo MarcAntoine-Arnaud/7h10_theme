@@ -1763,6 +1763,6 @@ img {
 .show_list li {
 	display: inline-block;
 	width: 160px;
-	vertical-align: top;
+	vertical-align: bottom;
 	text-align: center;
 }
