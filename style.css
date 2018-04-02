@@ -1773,3 +1773,13 @@ img {
 	vertical-align: top;
 	text-align: center;
 }
+
+.artist_list {
+	list-style: none;
+}
+
+.artist_list li {
+	display: block;
+	vertical-align: bottom;
+	text-align: center;
+}
