@@ -1755,8 +1755,8 @@ img {
 	}
 }
 
-
-.show_list {
+.show_list,
+.show_list_title {
 	list-style: none;
 }
 
@@ -1764,5 +1764,12 @@ img {
 	display: inline-block;
 	width: 160px;
 	vertical-align: bottom;
+	text-align: center;
+}
+
+.show_list_title li {
+	display: inline-block;
+	width: 160px;
+	vertical-align: top;
 	text-align: center;
 }
