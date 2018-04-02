@@ -1754,3 +1754,15 @@ img {
 		font-size: 14px !important;
 	}
 }
+
+
+.show_list {
+	list-style: none;
+}
+
+.show_list li {
+	display: inline-block;
+	width: 160px;
+	vertical-align: top;
+	text-align: center;
+}
