@@ -274,6 +274,18 @@ textarea {
 	}
 }
 
+
+@media only screen and (max-width: 768px) {
+	.main-navigation .container.submenu {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.main-navigation .container.submenu li {
+		width: 100%;
+	}
+}
+
 @media (min-width: 1200px) {
 	.main-navigation .container {
 		width: 100vw;
