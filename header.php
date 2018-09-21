@@ -17,6 +17,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<link rel="alternate" hreflang="en"
+  href="http://7h10.fr/" />
+<link rel="alternate" hreflang="fr"
+  href="http://7h10.fr/" />
 <?php wp_head(); ?>
 </head>
 
