@@ -11,6 +11,9 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Compagnie de 7h10: A la croisée de la musique, du théâtre et de la danse… des spectacles pour tous les âges" />
+<meta name="keywords" content="7h10,compagnie,théâtre,theater,danse,spectacle">
+
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
