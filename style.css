@@ -250,21 +250,28 @@ textarea {
 
 .main-navigation .container.submenu li {
 	border-right: 0;
-	width: 20%;
-	height: 300px;
 	font-size: 1.5em;
-	margin-right: -6px;
-	vertical-align: top;
-	transform: skew(-7deg,0deg);
-	-ms-transform: skew(-7deg,0deg);
-	-webkit-transform: skew(-7deg,-0deg);
 }
 
 .main-navigation .container.submenu li a {
 	text-shadow: 1px 1px #464646;
-	transform: translateY(120px), skew(7deg,0deg);
-	-ms-transform: translateY(120px) skew(7deg,0deg);
-	-webkit-transform: translateY(120px) skew(7deg,-0deg);
+}
+
+@media only screen and (min-width: 768px) {
+	.main-navigation .container.submenu li {
+		width: 20%;
+		height: 300px;
+		margin-right: -6px;
+		vertical-align: top;
+		transform: skew(-7deg,0deg);
+		-ms-transform: skew(-7deg,0deg);
+		-webkit-transform: skew(-7deg,-0deg);
+	}
+	.main-navigation .container.submenu li a {
+		transform: translateY(120px), skew(7deg,0deg);
+		-ms-transform: translateY(120px) skew(7deg,0deg);
+		-webkit-transform: translateY(120px) skew(7deg,-0deg);
+	}
 }
 
 @media (min-width: 1200px) {
