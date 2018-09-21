@@ -1703,11 +1703,12 @@ img {
 }
 @media (max-width: 1024px) {
 	.main-navigation {
-		display: none;
+		/*display: none;*/
 	}
 	.mobile-nav {
-		display: block;
-		background-color: #1c1c1c;
+		/*display: block;*/
+		display: none;
+		/*background-color: #1c1c1c;*/
 	}
 }
 @media only screen and (max-width: 1024px) {
