@@ -1442,7 +1442,7 @@ img {
 
 /* Caption styles */
 .nivo-caption {
-	display: none;
+	display: none !important;
 	overflow: hidden;
 	position: absolute;
 	z-index: 8;
