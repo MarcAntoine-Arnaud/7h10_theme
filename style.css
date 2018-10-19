@@ -1250,6 +1250,7 @@ img {
 }
 .site-branding {
 	padding: 60px 0;
+	display: none;
 }
 
 .site-branding .custom-logo {
@@ -1258,7 +1259,7 @@ img {
 
 @media only screen and (min-width: 768px) {
 	.site-branding .custom-logo {
-		float: left;
+		max-width: 600px;
 	}
 }
 
