@@ -1811,6 +1811,10 @@ img {
 	list-style: none;
 }
 
+.widget-title {
+	color: #fff;
+}
+
 .textwidget.custom-html-widget .logo {
 	background-color: #000;
 	display: inline-block;
