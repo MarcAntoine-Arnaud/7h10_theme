@@ -260,7 +260,7 @@ textarea {
 @media only screen and (min-width: 768px) {
 	.main-navigation .container.submenu li {
 		width: 20%;
-		height: 300px;
+		height: 200px;
 		margin-right: -6px;
 		vertical-align: top;
 		transform: skew(-7deg,0deg);
@@ -1809,4 +1809,10 @@ img {
 
 .artist_list {
 	list-style: none;
+}
+
+.textwidget.custom-html-widget .logo {
+	background-color: #000;
+	display: inline-block;
+	width: 40%;
 }
