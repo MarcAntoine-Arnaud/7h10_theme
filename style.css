@@ -1816,7 +1816,14 @@ img {
 }
 
 .textwidget .footer_logo {
-	background-color: #000;
 	display: inline-block;
 	width: 40%;
+}
+
+.textwidget .footer_logo.kisskissbank {
+	background-color: #000;
+}
+
+.textwidget .footer_logo.spedidam {
+	background-color: #fff;
 }
