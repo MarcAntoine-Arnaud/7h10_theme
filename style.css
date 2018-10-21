@@ -1815,7 +1815,7 @@ img {
 	color: #fff;
 }
 
-.textwidget.custom-html-widget .footer_logo {
+.textwidget .footer_logo {
 	background-color: #000;
 	display: inline-block;
 	width: 40%;
