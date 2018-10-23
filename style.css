@@ -280,7 +280,7 @@ textarea {
 @media only screen and (min-width: 768px) {
 	.main-navigation .container.submenu li {
 		width: 20%;
-		height: 200px;
+		height: 250px;
 		margin-right: -7px;
 		vertical-align: top;
 		transform: skew(-7deg,0deg);
