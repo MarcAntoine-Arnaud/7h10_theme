@@ -251,26 +251,30 @@ textarea {
 .main-navigation .container.submenu li {
 	border-right: 0;
 	font-size: 1.5em;
+	padding: 3px;
 }
 
 .main-navigation .container.submenu li a {
 	text-shadow: 1px 1px #464646;
+}
+.main-navigation .container.submenu li a:nth-child(1):after {
+	content: "théâtre musical tous publics";
 }
 
 @media only screen and (min-width: 768px) {
 	.main-navigation .container.submenu li {
 		width: 20%;
 		height: 200px;
-		margin-right: -6px;
+		margin-right: -7px;
 		vertical-align: top;
 		transform: skew(-7deg,0deg);
 		-ms-transform: skew(-7deg,0deg);
 		-webkit-transform: skew(-7deg,-0deg);
 	}
 	.main-navigation .container.submenu li a {
-		transform: translateY(120px), skew(7deg,0deg);
-		-ms-transform: translateY(120px) skew(7deg,0deg);
-		-webkit-transform: translateY(120px) skew(7deg,-0deg);
+		transform: translateY(20px), skew(7deg,0deg);
+		-ms-transform: translateY(20px) skew(7deg,0deg);
+		-webkit-transform: translateY(20px) skew(7deg,-0deg);
 	}
 }
 
