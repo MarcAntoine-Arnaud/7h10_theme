@@ -260,18 +260,21 @@ textarea {
 
 .main-navigation .container.submenu li a:after {
 	font-size: 0.8em;
+	text-transform: initial;
+	display: block;
+	opacity: 0.7;
 }
 .main-navigation .container.submenu li:nth-child(1) a:after {
-	content: " - th&eacute;&acirc;tre musical tous publics";
+	content: "théâtre musical tous publics";
 }
 .main-navigation .container.submenu li:nth-child(2) a:after {
-	content: " - concerts cont&eacute;s et th&eacute;&acirc;tralis&eacute;s";
+	content: "concerts cont&eacute;s et théâtralisés";
 }
 .main-navigation .container.submenu li:nth-child(3) a:after {
-	content: " - recherches sur la polyvalence artistique";
+	content: "recherches sur la polyvalence artistique";
 }
 .main-navigation .container.submenu li:nth-child(4) a:after {
-	content: " - cours, stages et interventions p&eacute;dagogiques";
+	content: "cours, stages et interventions pédagogiques";
 }
 
 @media only screen and (min-width: 768px) {
