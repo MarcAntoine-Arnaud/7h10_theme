@@ -257,8 +257,21 @@ textarea {
 .main-navigation .container.submenu li a {
 	text-shadow: 1px 1px #464646;
 }
-.main-navigation .container.submenu li a:nth-child(1):after {
-	content: "théâtre musical tous publics";
+
+.main-navigation .container.submenu li a:after {
+	font-size: 0.8em;
+}
+.main-navigation .container.submenu li:nth-child(1) a:after {
+	content: " - théâtre musical tous publics";
+}
+.main-navigation .container.submenu li:nth-child(1) a:after {
+	content: " - concerts contés et théâtralisés";
+}
+.main-navigation .container.submenu li:nth-child(1) a:after {
+	content: " - recherches sur la polyvalence artistique";
+}
+.main-navigation .container.submenu li:nth-child(1) a:after {
+	content: " - cours, stages et interventions pédagogiques";
 }
 
 @media only screen and (min-width: 768px) {
