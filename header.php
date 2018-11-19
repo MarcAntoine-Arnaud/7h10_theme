@@ -73,7 +73,7 @@
 			</div>
 		</nav><!-- #site-navigation -->
 		<nav class="mobile-nav"></nav>
-		<?php endif; ?>		
+		<?php endif; ?>
 
 		<div class="branding-wrapper">
 			<div class="container">

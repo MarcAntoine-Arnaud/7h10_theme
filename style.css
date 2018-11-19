@@ -274,7 +274,7 @@ textarea {
 	content: "recherches sur la polyvalence artistique";
 }
 .main-navigation .container.submenu li:nth-child(4) a:after {
-	content: "cours, stages et interventions pédagogiques";
+        content: "cours et actions pédagogiques";
 }
 
 @media only screen and (min-width: 768px) {
